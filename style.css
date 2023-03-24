@@ -1,0 +1,36 @@
+body
+{
+    background-color: firebrick;
+}
+
+h1
+{
+
+    color:crimson;
+    background-color: dodgerblue;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {box-shadow: 1px 1px 38px cadetblue;}
+    to {box-shadow: 1px 1px 38px rgb(185, 41, 65)}
+}
+
+
+p
+ {
+    padding-top:10px;
+    font-size:25px;
+ }
